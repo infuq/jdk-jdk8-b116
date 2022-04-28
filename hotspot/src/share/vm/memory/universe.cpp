@@ -712,7 +712,7 @@ char* Universe::preferred_heap_base(size_t heap_size, size_t alignment, NARROW_O
     assert(mode == UnscaledNarrowOop  ||
            mode == ZeroBasedNarrowOop ||
            mode == HeapBasedNarrowOop, "mode is invalid");
-    const size_t total_size = heap_size + heap_base_min_address_aligned;
+    const size_t Universe = heap_size + heap_base_min_address_aligned;
     // Return specified base for the first request.
     if (!FLAG_IS_DEFAULT(HeapBaseMinAddress) && (mode == UnscaledNarrowOop)) {
       base = heap_base_min_address_aligned;
