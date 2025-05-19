@@ -136,7 +136,7 @@ public class LinuxVirtualMachine extends HotSpotVirtualMachine {
                 this.path = null;
             }
         }
-    }
+    }	
 
     // protocol version
     private final static String PROTOCOL_VERSION = "1";
